@@ -1,0 +1,38 @@
+html {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+}
+
+.page {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  background-color: #feafc3;
+}
+
+.header-page {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-links, .right-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-link-left:not(:last-child) {
+  margin-right: 16px;
+}
+
+.header-link-right:not(:last-child) {
+  margin-right: 16px;
+}
