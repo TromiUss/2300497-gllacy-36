@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>HTML Academy: Глейси</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="js.js">
   </head>
   <body class="page">
     <header class="header-page">
@@ -35,9 +36,9 @@
     <main>
       <div class="hero-slaid">
         <div class="adaptivSlayder">
-          <input type="radio" name="kadoves" id="slaid1" checked>
-          <input type="radio" name="kadoves" id="slaid2">
-          <input type="radio" name="kadoves" id="slaid3">
+          <input class="input-back" type="radio" name="kadoves" id="slaid1" checked value="pink">
+          <input class="input-back" type="radio" name="kadoves" id="slaid2" value="blue">
+          <input class="input-back" type="radio" name="kadoves" id="slaid3" value="yellow">
           <div class="kadoves">
             <label for="slaid1"></label>
             <label for="slaid2"></label>
@@ -47,8 +48,16 @@
             <div class="adaptivSlayderlasekun">
               <div class="abusteku-deagulus">
                 <div class="general-slayder">
-                  <img src="" alt="">
-                  <div class="photo-description"></div>
+                  <img class="back-images-alaid" src="/images/icecr-1.png" width="100" height="150" alt="">
+                  <img class="back-images-alaid" src="/images/icecr-1.png" width="100" height="150" alt="">
+                  <img class="images-slaid" src="/images/icecr-1.png" width="328" height="507" alt="">
+                  <div class="photo-description">
+                    <h1>Нежный пломбир
+                      с клубничным джемом</h1>
+                      <p class="p-desc">Натуральное мороженое из свежих сливок
+                        и молока с вкуснейшим клубничным джемом – это идеальный десерт для всей семьи. </p>
+                        <button>Заказать</button>
+                  </div>
                 </div>
                 <div class="general-slayder">
                   <img src="" alt="">

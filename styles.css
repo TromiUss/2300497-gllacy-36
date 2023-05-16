@@ -12,10 +12,16 @@ html {
   background-color: #feafc3;
 }
 
+.blue-back {
+  background-color: #69a9ff;
+}
+
 .header-page {
   width: 1170px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 60px;
+  margin-top: 24px;
 }
 
 .header-links {
@@ -35,4 +41,111 @@ html {
 
 .header-link-right:not(:last-child) {
   margin-right: 16px;
+}
+
+/* ================================= */
+
+.hero-slaid {
+  display: flex;
+  justify-content: space-between;
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.adaptivSlayder {
+  position: relative;
+  max-width: 1170px;
+  margin-left: 70px;
+}
+
+.adaptivSlayder input[name="kadoves"] {
+  display: none;
+}
+
+.kadoves {
+  position: absolute;
+  left: -70px;
+  bottom: -35px;
+  text-align: left;
+  width: 100%;
+}
+
+.kadoves label {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  cursor: pointer;
+  margin: 0 2px;
+  border-radius: 55%;
+  background-color: #fcfcfc;
+}
+
+.kadoves label:hover {
+  border: 2px solid #9d9b9b;
+}
+
+.kadoves label:active {
+  border: 2px solid #c8c8c8;
+}
+
+.adaptivSlayderlasekun {
+  overflow: hidden;
+
+}
+
+.photo-main {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.photo-description {
+  margin-right: 10px;
+  align-self: center;
+}
+
+.p-desc {
+  width: 430px;
+}
+
+.abusteku-deagulus {
+  display: flex;
+  width: 1170px;
+  transition: all 0.6s;
+}
+
+.abusteku-deagulus .images-slaid {
+  width: 367px;
+  height: 554px;
+}
+
+.images-slaid {
+  margin-right: 40px;
+}
+
+.back-images-slaid {
+  width: 100px;
+  height: 150px;
+}
+
+.back-images-slaid:not(:last-child) {
+  margin-right: 50px;
+}
+
+#slaid1:checked ~ .photo-main .adaptivSlayderlasekun .abusteku-deagulus {
+  transform: translate(0);
+}
+
+#slaid2:checked ~ .photo-main .adaptivSlayderlasekun .abusteku-deagulus {
+  transform: translateX(-100%);
+}
+
+#slaid3:checked ~ .photo-main .adaptivSlayderlasekun .abusteku-deagulus {
+  transform: translateX(-200%);
+}
+
+.general-slayder {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
 }
