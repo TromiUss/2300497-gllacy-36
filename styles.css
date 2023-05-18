@@ -232,3 +232,89 @@ html {
 .taste-img {
   margin-top: -50px;
 }
+
+.determ-descr {
+  margin: 0;
+}
+
+.about-description {
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 1170px;
+  margin-bottom: 80px;
+  background-image: url(/images/geo.png);
+  background-position: center;
+  border-radius: 16px;
+  background-size: cover;
+  height: 480px;
+}
+
+.header-about-descr {
+  margin: 0;
+  font-family: Inter;
+  font-size: 32px;
+  line-height: 46px;
+  line-height: 119%;
+  vertical-align: Top;
+  margin-bottom: 56px;
+}
+
+.description-parts {
+  width: 1122px;
+  background-color: #ffff;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 16px;
+  position: relative;
+  top: 24px;
+  padding-top: 56px;
+}
+
+.description-part {
+  width: 506px;
+  display: flex;
+}
+
+.description-parts-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: left;
+  padding-bottom: 56px;
+}
+
+.description-about-par {
+  width: 440px;
+}
+
+.svg-about {
+  margin-right: 16px;
+  width: 48px;
+  height: 48px;
+  display: block;
+  position: relative;
+  top: 10px;
+}
+
+
+.iccr {
+  background-image: url(/images/vectors/iccr.svg);
+  background-repeat: no-repeat;
+}
+
+.cow {
+  background-image: url(/images/vectors/cow.svg);
+  background-repeat: no-repeat;
+}
+
+.qlt {
+  background-image: url(/images/vectors/qlt.svg);
+  background-repeat: no-repeat;
+}
+
+.tmpr {
+  background-image: url(/images/vectors/tmpr.svg);
+  background-repeat: no-repeat;
+}
