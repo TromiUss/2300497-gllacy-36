@@ -197,3 +197,38 @@ html {
   background-color: #ff7799;
   border-radius: 16px;
 }
+
+.tastes {
+  text-align: center;
+  margin-bottom: 81px;
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-header-tastes {
+  width: 527px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 107px;
+}
+
+.tastes-variety {
+  display: flex;
+  margin-top: 40px;
+}
+
+.taste {
+  width: 270px;
+  height: 332px;
+  background-color: #fcfcfc;
+  border-radius: 8px;
+}
+
+.taste:not(:last-child) {
+  margin-right: 30px;
+}
+
+.taste-img {
+  margin-top: -50px;
+}
