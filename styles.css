@@ -324,3 +324,65 @@ html {
   background-image: url(/images/vectors/tmpr.svg);
   background-repeat: no-repeat;
 }
+
+.blog {
+  display: flex;
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 80px;
+}
+.blog-container {
+  width: 570px;
+  height: 224px;
+  border-radius: 16px;
+  background-color: #ffffff;
+}
+
+.ten {
+  margin-right: 30px;
+  overflow: hidden;
+}
+
+.ten-text-container {
+  position: relative;
+  z-index: 1;
+}
+
+.ten-blog-container {
+  margin-top: 32px;
+  margin-left: 32px;
+}
+
+.ten-par {
+  margin: 0;
+  margin-bottom: 12px;
+}
+
+.ten-header {
+  width: 303px;
+  margin: 0;
+}
+
+.ten-back {
+  background-size: cover;
+  display: block;
+  position: relative;
+  width: 560px;
+  height: 384px;
+  top: -223px;
+  right: 20px;
+}
+
+.e-mail {
+
+}
+
+.e-mail-text-container {
+  margin: 26px;
+}
+
+.e-mail-par {
+  margin: 0;
+  margin-bottom: 42px;
+}
