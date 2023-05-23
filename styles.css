@@ -386,3 +386,22 @@ html {
   margin: 0;
   margin-bottom: 42px;
 }
+
+.delivery {
+  width: 1170px;
+  overflow: hidden;
+  height: 534px;
+  margin-bottom: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 16px;
+}
+
+.delivery-back {
+  background-size: cover;
+  display: block;
+  position: relative;
+  transform: scale(-1,1);
+  width: 1170px;
+  top: -125px;
+}
