@@ -375,16 +375,53 @@ html {
 }
 
 .e-mail {
+background-image: url(/images/mail-back.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
 
+.e-mail-text-back {
+  background-color: #ffffff;
+  width: 558px;
+  height: 212px;
+  position: relative;
+  left: 5px;
+  top: 5px;
+  border-radius: 16px;
 }
 
 .e-mail-text-container {
-  margin: 26px;
+  width: 506px;
+  position: relative;
+  top: 25px;
+  left: 25px;
 }
 
 .e-mail-par {
   margin: 0;
   margin-bottom: 42px;
+}
+
+.e-mail-label {
+  margin-right: 14px;
+}
+
+.e-mail-input {
+  padding: 0;
+  width: 332px;
+  height: 48px;
+}
+
+.e-mail-button {
+  margin-left: auto;
+  margin-right: auto;
+  width: 152px;
+  height: 44px;
+  border-radius: 26px;
+  background-color: #ff2f64;
+  color: #fcfcfc;
+  border-color: rgba(255, 47, 100, 0.3);
 }
 
 .delivery {
@@ -417,25 +454,40 @@ html {
   flex-wrap: wrap;
 }
 
+.delivery-text {
+  margin: 40px 80px 32px 40px;
+}
+
 .delivery-label-first {
   margin-right: 16px;
   margin-left: auto;
   margin-bottom: 20px;
+  width: 117px;
+  height: 76px;
 }
 
 .delivery-label-second {
   margin-right: auto;
   margin-bottom: 20px;
+  width: 287px;
+  height: 76px;
 }
 
 .delivery-label-third {
   margin-right: auto;
   margin-left: auto;
+  width: 420px;
+  height: 76px;
 }
 
+.delivery-label-text {
+  margin: 0;
+  margin-bottom: 8px;
+}
 
 .delivery-input {
-  height: 48px;
+  height: 45px;
+  padding: 0;
 }
 
 .date-input {
@@ -453,6 +505,8 @@ html {
 .post-button-delivery {
   margin-left: auto;
   margin-right: auto;
+  margin-top: 32px;
+  margin-bottom: 42px;
   width: 152px;
   height: 44px;
   border-radius: 26px;
@@ -468,4 +522,23 @@ html {
   transform: scale(-1,1);
   width: 1170px;
   top: -630px;
+}
+
+.adres-back-section {
+  width: 1170px;
+  height: 492px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(/images/adres-back-section.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 16px;
+}
+
+.adres-section-text {
+  width: 343px;
+  margin: 64px 763px 64px 64px;
+  background-color: #ffffff;
+  border-radius: 16px;
 }
