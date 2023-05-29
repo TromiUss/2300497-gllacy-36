@@ -541,4 +541,33 @@ background-position: center;
   margin: 64px 763px 64px 64px;
   background-color: #ffffff;
   border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.back-call {
+  margin-bottom: 40px;
+  background-color: #ff2f64;
+  border-radius: 26px;
+  border: none;
+  width: 250px;
+  height: 46px;
+  margin-top: 32px;
+}
+
+.adres-section-text p,h2,a,button {
+  margin-left: 40px;
+  margin-bottom: 12px;
+}
+
+.address {
+  margin-bottom: 24px;
+}
+
+.tel-back-call {
+  margin-bottom: 0;
+}
+
+.tel-text-bottom {
+  margin-top: 0;
 }
