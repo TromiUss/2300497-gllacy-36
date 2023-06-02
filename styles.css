@@ -526,7 +526,7 @@ background-position: center;
 
 .adres-back-section {
   width: 1170px;
-  height: 492px;
+  height: 423px;
   margin-left: auto;
   margin-right: auto;
   background-image: url(/images/adres-back-section.jpg);
@@ -534,11 +534,12 @@ background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 16px;
+  padding-top: 64px;
 }
 
 .adres-section-text {
   width: 343px;
-  margin: 64px 763px 64px 64px;
+  margin: 0 763px 64px 64px;
   background-color: #ffffff;
   border-radius: 16px;
   display: flex;
@@ -571,3 +572,49 @@ background-position: center;
 .tel-text-bottom {
   margin-top: 0;
 }
+
+/*=============FOOTER===============*/
+.footer-line {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+
+.links-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.link-item:not(:last-child) {
+  margin-right: 16px;
+}
+
+.span-container {
+  margin: 0;
+}
+
+.link-image {
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  display: block;
+  width: 30px;
+  height: 30px;
+}
+
+.teleg {
+  background-image: url(/images/vectors/teleg.svg);
+}
+
+.yout {
+  background-image: url(/images/vectors/yout.png);
+}
+
+.vkon {
+  background-image: url(/images/vectors/vkon.svg);
+}
+/*=============FOOTER===============*/
