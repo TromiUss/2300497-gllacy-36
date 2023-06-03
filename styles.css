@@ -580,6 +580,11 @@ background-position: center;
   margin-right: auto;
   margin-top: 48px;
   margin-bottom: 48px;
+  display: flex;
+}
+
+.footer-containers:not(:last-child) {
+  margin-right: 259px;
 }
 
 .links-list {
@@ -616,5 +621,83 @@ background-position: center;
 
 .vkon {
   background-image: url(/images/vectors/vkon.svg);
+}
+
+.footer-about {
+  display: flex;
+  text-decoration: none;
+  list-style-type: none;
+  width: 356px;
+  flex-wrap: wrap;
+  height: 48px;
+}
+
+.footer-about-links {
+  margin: 0;
+  text-decoration: none;
+  color: black;
+}
+
+.footer-about-like {
+  background-image: url(/images/vectors/Heart.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  display: block;
+  width: 16px;
+  height: 16px;
+}
+
+.footer-links-first {
+  margin-right: 24px;
+  display: flex;
+}
+
+.footer-links-third {
+  margin-right: 29px;
+  margin-left: 24px;
+}
+
+.footer-about-text {
+  margin: 0;
+}
+
+.footer-text-first {
+ margin-bottom: 8px;
+ margin-left: 8px;
+}
+
+.footer-text-second {
+  margin-bottom: 8px;
+}
+
+.footer-academy {
+  display: flex;
+  flex-wrap: wrap;
+  width: 193px;
+}
+
+.html-academy-link {
+  margin: 0;
+}
+
+.html-academy-logo {
+  background-image: url(/images/vectors/logo_htmlacademy.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  display: block;
+  width: 93px;
+  height: 27px;
+}
+
+.html-academy-text {
+  font family: Inter;
+  font-style: Regular;
+  font-size: 12px;
+  line-height: 16px;
+  vertical-align: Top;
+  color: #2d3440;
+  width: 193px;
 }
 /*=============FOOTER===============*/
