@@ -5,10 +5,9 @@
     <meta charset="utf-8">
     <title>HTML Academy: Глейси</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="js.js">
   </head>
 
-  <body class="page">
+  <body class="page pink">
     <header class="header-page">
       <div class="header-links">
         <div class="left-links">
@@ -16,7 +15,7 @@
             <img src="/images/vectors/logo.svg" width="137" height="56" alt="">
           </a>
           <div class="catalog-menu-container header-link-left">
-            <a href="">Каталог</a>
+            <a class="left-link-header" href="">Каталог</a>
           </div>
           <a href="#" class="header-link-left">Доставка и оплата</a>
           <a href="#" class="header-link-left">О компании</a>
@@ -26,11 +25,13 @@
           <a class="search header-link-right" href="#">
             <span class="search-icon"></span>
           </a>
-          <a class="enter header-link-right" href="#">Вход
+          <a class="enter header-link-right" href="#">
             <span class="enter-icon"></span>
+            Вход
           </a>
-          <a class="buy header-link-right" href="#">2 Товара
-            <span class="buy-icon"></span>
+          <a class="buy header-link-right" href="#">
+            <span class="buy-icon-header"></span>
+            2 Товара
           </a>
         </div>
       </div>
@@ -50,38 +51,66 @@
             <div class="adaptivSlayderlasekun">
               <div class="abusteku-deagulus">
                 <div class="general-slayder">
+                  <button class="button-back first-slaid-button">
+                    <span class="arrow-left"></span>
+                  </button>
                   <img class="back-images-slaid" src="/images/icecr-3.png" width="100" height="150" alt="">
+                  <button class="button-next first-slaid-button">
+                    <span class="arrow-right"></span>
+                  </button>
+                  <span class="back-slaid-big">
+                  </span>
                   <img class="back-images-slaid" src="/images/icecr-2.png" width="100" height="150" alt="">
+                  <span class="back-slaid-small"></span>
                   <img class="images-slaid" src="/images/icecr-1.png" width="328" height="507" alt="">
+                  <span class="back-slaid-small-last"></span>
                   <div class="photo-description">
-                    <h1>Нежный пломбир
+                    <h1 class="header-slaid">Нежный пломбир
                       с клубничным джемом</h1>
                     <p class="p-desc">Натуральное мороженое из свежих сливок
                       и молока с вкуснейшим клубничным джемом – это идеальный десерт для всей семьи. </p>
-                    <button>Заказать</button>
+                    <button class="button-accept-slaid">Заказать</button>
                   </div>
                 </div>
                 <div class="general-slayder">
+                  <button class="button-back second-slaid-button">
+                    <span class="arrow-left"></span>
+                  </button>
                   <img class="back-images-slaid" src="/images/icecr-1.png" width="100" height="150" alt="">
+                  <button class="button-next second-slaid-button">
+                    <span class="arrow-right"></span>
+                  </button>
+                  <span class="back-slaid-big-second"></span>
                   <img class="back-images-slaid" src="/images/icecr-3.png" width="100" height="150" alt="">
+                  <span class="back-slaid-small-second"></span>
                   <img class="images-slaid" src="/images/icecr-2.png" width="328" height="507" alt="">
+                  <span class="back-slaid-small-last-second"></span>
                   <div class="photo-description">
-                    <h1>Сливочное мороженое со вкусом банана</h1>
+                    <h1 class="header-slaid">Сливочное мороженое со вкусом банана</h1>
                     <p class="p-desc">Сливочное мороженое с ярким банановым вкусом подарит вам свежесть и наслаждение
                       даже в самый жаркий летний день.</p>
-                    <button>Заказать</button>
+                    <button class="button-accept-slaid">Заказать</button>
                   </div>
                 </div>
                 <div class="general-slayder">
+                  <button class="button-back third-slaid-button">
+                    <span class="arrow-left"></span>
+                  </button>
                   <img class="back-images-slaid" src="/images/icecr-2.png" width="100" height="150" alt="">
+                  <button class="button-next third-slaid-button">
+                    <span class="arrow-right"></span>
+                  </button>
+                  <span class="back-slaid-big-third"></span>
                   <img class="back-images-slaid" src="/images/icecr-1.png" width="100" height="150" alt="">
+                  <span class="back-slaid-small-third"></span>
                   <img class="images-slaid" src="/images/icecr-3.png" width="328" height="507" alt="">
+                  <span class="back-slaid-small-last-third"></span>
                   <div class="photo-description">
-                    <h1>Карамельный пломбир
+                    <h1 class="header-slaid">Карамельный пломбир
                       с маршмеллоу</h1>
                     <p class="p-desc">Необычный сладкий десерт с карамельным топпингом и кусочками зефира завоюет сердца
                       сладкоежек всех возрастов.</p>
-                    <button>Заказать</button>
+                    <button class="button-accept-slaid">Заказать</button>
                   </div>
                 </div>
               </div>
@@ -90,14 +119,14 @@
         </div>
       </div>
       <section class="gifts">
-        <h2>Заказывайте мороженое и получайте подарки!</h2>
+        <h2 class="gifts-header">Заказывайте мороженое и получайте подарки!</h2>
         <div class="gifts-variety">
           <div class="malina gifts-back">
             <section class="gift-description">
-              <h3>Малинка даром!</h3>
+              <h3 >Малинка даром!</h3>
               <p>При покупке 2 кг любого фруктового мороженого добавим в ваш заказ банку малинового варенья бесплатно.
               </p>
-              <button>Хочу подарок</button>
+              <button class="gifts-accept-button">Хочу подарок</button>
             </section>
             <img class="gift-img" src="/images/malina.png" alt="">
           </div>
@@ -105,7 +134,7 @@
             <section class="gift-description">
               <h3>Маршмеллоу даром!</h3>
               <p>При покупке 2 кг пломбира добавим в ваш заказ упаковку нежных зефирок совершенно бесплатно.</p>
-              <button>Хочу подарок</button>
+              <button class="gifts-accept-button">Хочу подарок</button>
             </section>
             <img class="gift-img" src="/images/marshmallow.png" width="219" height="268" alt="">
           </div>
@@ -114,57 +143,57 @@
       <section class="tastes">
         <h2 class="section-header-tastes">Попробуйте самые популярные вкусы нашего мороженого</h2>
         <div class="tastes-variety">
-          <div class="taste first">
+          <div class=" taste taste-first-page first">
             <img class="taste-img" src="/images/malina-ice.png" width="168" height="168" alt="">
-            <dl>
+            <dl class="ice-determ">
               <dt>Малинка</dt>
               <dd class="determ-descr">Сливочное мороженое с малиновым джемом</dd>
             </dl>
             <div class="price">
               <p>310 ₽/кг</p>
-              <button>
-                <span></span>
+              <button class="buy-button">
+                <span class="buy-icon"></span>
               </button>
             </div>
           </div>
-          <div class="taste second">
+          <div class="taste taste-first-page second">
             <img class="taste-img" src="/images/pistachio.png" width="168" height="168" alt="">
-            <dl>
+            <dl class="ice-determ">
               <dt>Фисташка</dt>
               <dd class="determ-descr">Фисташковый пломбир с кусочками шоколада</dd>
             </dl>
             <div class="price">
               <p>340 ₽/кг</p>
-              <button>
-                <span></span>
+              <button class="buy-button">
+                <span class="buy-icon"></span>
               </button>
             </div>
           </div>
-          <div class="taste third">
+          <div class="taste taste-first-page third">
             <img class="taste-img" src="/images/blueberry.png" width="168" height="168" alt="">
-            <dl>
+            <dl class="ice-determ">
               <dt>Черника</dt>
               <dd class="determ-descr">Крем-брюле
                 с черничным джемом</dd>
             </dl>
             <div class="price">
               <p>330 ₽/кг</p>
-              <button>
-                <span></span>
+              <button class="buy-button">
+                <span class="buy-icon"></span>
               </button>
             </div>
           </div>
-          <div class="taste fourth">
+          <div class="taste taste-first-page fourth">
             <img class="taste-img" src="/images/bubble-gum.png" width="168" height="168" alt="">
-            <dl>
+            <dl class="ice-determ">
               <dt>Бабл-гам</dt>
               <dd class="determ-descr">Ванильный пломбир
                 со сладкой посыпкой</dd>
             </dl>
             <div class="price">
               <p>320 ₽/кг</p>
-              <button>
-                <span></span>
+              <button class="buy-button">
+                <span class="buy-icon"></span>
               </button>
             </div>
           </div>
@@ -206,11 +235,11 @@
       <div class="blog">
         <div class="ten blog-container">
           <div class="ten-blog-container">
-            <span class="ten-text-container">
+            <section class="ten-text-container">
               <p class="ten-par">Новое в нашем блоге</p>
               <h2 class="ten-header">10 способов сервировки фруктовых щербетов
                 к столу</h2>
-            </span>
+            </section>
             <img class="ten-back" src="/images/10-back.png" alt="">
           </div>
         </div>
@@ -308,6 +337,7 @@
         </div>
       </div>
     </footer>
+    <script src="js.js"></script>
   </body>
 
 </html>
